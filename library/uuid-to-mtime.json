@@ -315,7 +315,7 @@
     "relativePath": "resources/red/shi.png"
   },
   "ec85df7a-ba3f-43ad-b113-6531782b16fa": {
-    "asset": 1533995817000,
+    "asset": 1533996538000,
     "meta": 1533996190000,
     "relativePath": "scenes"
   },
@@ -323,5 +323,15 @@
     "asset": 1533995812000,
     "meta": 1533996190000,
     "relativePath": "scripts"
+  },
+  "ce440995-596c-4b12-83ed-d2c595749ff8": {
+    "asset": 1533996895000,
+    "meta": 1533996895000,
+    "relativePath": "scenes/game_scene.fire"
+  },
+  "1c68429a-4cd2-4780-9afb-fb47b411bd0c": {
+    "asset": 1533996845000,
+    "meta": 1533996877000,
+    "relativePath": "scripts/GameBoard.js"
   }
 }

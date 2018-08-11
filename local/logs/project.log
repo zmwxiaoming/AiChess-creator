@@ -1,52 +1,110 @@
-2018-08-11T14:03:08.712Z - normal: Load ~/.CocosCreator/settings.json
-2018-08-11T14:03:08.716Z - normal: checking language setting...
-2018-08-11T14:03:08.716Z - normal: Language: zh
-2018-08-11T14:03:09.168Z - success: protocol editor-framework registered
-2018-08-11T14:03:09.168Z - success: protocol app registered
-2018-08-11T14:03:09.168Z - success: protocol theme registered
-2018-08-11T14:03:09.168Z - success: protocol packages registered
-2018-08-11T14:03:09.169Z - success: protocol unpack registerred
-2018-08-11T14:03:09.169Z - success: protocol disable-commonjs registerred
-2018-08-11T14:03:09.261Z - normal: connected!
-2018-08-11T14:03:09.263Z - normal: Check project /Users/jianan/Documents/Study/CCC-ChineseChinese
-2018-08-11T14:03:09.265Z - normal: Initializing Cocos2d
-2018-08-11T14:03:09.398Z - normal: Initializing Asset Database
-2018-08-11T14:03:09.418Z - success: protocol uuid registerred
-2018-08-11T14:03:09.418Z - success: protocol db registerred
-2018-08-11T14:03:09.418Z - success: protocol thumbnail registerred
-2018-08-11T14:03:09.418Z - normal: Loading editor/builtin packages
-2018-08-11T14:03:09.432Z - success: anysdk loaded
-2018-08-11T14:03:09.511Z - success: assets loaded
-2018-08-11T14:03:09.514Z - success: builder loaded
-2018-08-11T14:03:09.515Z - success: cocos-analytics loaded
-2018-08-11T14:03:09.518Z - success: console loaded
-2018-08-11T14:03:09.522Z - success: hierarchy loaded
-2018-08-11T14:03:09.525Z - success: inspector loaded
-2018-08-11T14:03:09.526Z - success: keystore loaded
-2018-08-11T14:03:09.529Z - success: node-library loaded
-2018-08-11T14:03:09.530Z - success: package-asset loaded
-2018-08-11T14:03:09.531Z - success: preferences loaded
-2018-08-11T14:03:09.534Z - success: project-exporter loaded
-2018-08-11T14:03:09.546Z - success: project-importer loaded
-2018-08-11T14:03:09.554Z - success: project-settings loaded
-2018-08-11T14:03:09.557Z - success: ui-kit loaded
-2018-08-11T14:03:09.561Z - success: ui-grid loaded
-2018-08-11T14:03:09.564Z - success: scene loaded
-2018-08-11T14:03:09.565Z - success: sprite-editor loaded
-2018-08-11T14:03:09.568Z - success: store loaded
-2018-08-11T14:03:09.572Z - success: timeline loaded
-2018-08-11T14:03:09.572Z - normal: Loading builtin packages
-2018-08-11T14:03:09.575Z - success: asset-db-debugger loaded
-2018-08-11T14:03:09.576Z - success: color-picker loaded
-2018-08-11T14:03:09.579Z - success: package-manager loaded
-2018-08-11T14:03:09.583Z - success: sdkbox loaded
-2018-08-11T14:03:09.586Z - success: tester loaded
-2018-08-11T14:03:09.593Z - success: ui-kit-preview-extra loaded
-2018-08-11T14:03:09.596Z - success: ui-kit-preview loaded
-2018-08-11T14:03:09.598Z - success: ui-tree loaded
-2018-08-11T14:03:10.305Z - normal: Initializing project /Users/jianan/Documents/Study/CCC-ChineseChinese
-2018-08-11T14:03:10.307Z - normal: Loading packages
-2018-08-11T14:03:10.311Z - normal: Watching packages
-2018-08-11T14:03:10.319Z - normal: Run Application
-2018-08-11T14:03:10.996Z - success: preview server running at http://localhost:7456
-2018-08-11T14:03:14.004Z - normal: 1.8.1
+2018-08-11T14:09:05.029Z - normal: Load ~/.CocosCreator/settings.json
+2018-08-11T14:09:05.032Z - normal: checking language setting...
+2018-08-11T14:09:05.032Z - normal: Language: zh
+2018-08-11T14:09:05.486Z - success: protocol editor-framework registered
+2018-08-11T14:09:05.487Z - success: protocol app registered
+2018-08-11T14:09:05.487Z - success: protocol theme registered
+2018-08-11T14:09:05.487Z - success: protocol packages registered
+2018-08-11T14:09:05.487Z - success: protocol unpack registerred
+2018-08-11T14:09:05.487Z - success: protocol disable-commonjs registerred
+2018-08-11T14:09:05.649Z - normal: connected!
+2018-08-11T14:09:05.650Z - normal: Check project /Users/jianan/Documents/Study/CCC-ChineseChinese
+2018-08-11T14:09:05.651Z - normal: Initializing Cocos2d
+2018-08-11T14:09:05.777Z - normal: Initializing Asset Database
+2018-08-11T14:09:05.798Z - success: protocol uuid registerred
+2018-08-11T14:09:05.798Z - success: protocol db registerred
+2018-08-11T14:09:05.798Z - success: protocol thumbnail registerred
+2018-08-11T14:09:05.799Z - normal: Loading editor/builtin packages
+2018-08-11T14:09:05.811Z - success: anysdk loaded
+2018-08-11T14:09:05.889Z - success: assets loaded
+2018-08-11T14:09:05.891Z - success: builder loaded
+2018-08-11T14:09:05.893Z - success: cocos-analytics loaded
+2018-08-11T14:09:05.896Z - success: console loaded
+2018-08-11T14:09:05.899Z - success: hierarchy loaded
+2018-08-11T14:09:05.902Z - success: inspector loaded
+2018-08-11T14:09:05.903Z - success: keystore loaded
+2018-08-11T14:09:05.906Z - success: node-library loaded
+2018-08-11T14:09:05.908Z - success: package-asset loaded
+2018-08-11T14:09:05.909Z - success: preferences loaded
+2018-08-11T14:09:05.911Z - success: project-exporter loaded
+2018-08-11T14:09:05.924Z - success: project-importer loaded
+2018-08-11T14:09:05.926Z - success: project-settings loaded
+2018-08-11T14:09:05.928Z - success: ui-kit loaded
+2018-08-11T14:09:05.932Z - success: ui-grid loaded
+2018-08-11T14:09:05.935Z - success: scene loaded
+2018-08-11T14:09:05.935Z - success: sprite-editor loaded
+2018-08-11T14:09:05.938Z - success: store loaded
+2018-08-11T14:09:05.942Z - success: timeline loaded
+2018-08-11T14:09:05.942Z - normal: Loading builtin packages
+2018-08-11T14:09:05.945Z - success: asset-db-debugger loaded
+2018-08-11T14:09:05.946Z - success: color-picker loaded
+2018-08-11T14:09:05.949Z - success: package-manager loaded
+2018-08-11T14:09:05.952Z - success: sdkbox loaded
+2018-08-11T14:09:05.955Z - success: tester loaded
+2018-08-11T14:09:05.963Z - success: ui-kit-preview-extra loaded
+2018-08-11T14:09:05.966Z - success: ui-kit-preview loaded
+2018-08-11T14:09:05.968Z - success: ui-tree loaded
+2018-08-11T14:09:06.676Z - normal: Initializing project /Users/jianan/Documents/Study/CCC-ChineseChinese
+2018-08-11T14:09:06.677Z - normal: Loading packages
+2018-08-11T14:09:06.681Z - normal: Watching packages
+2018-08-11T14:09:06.689Z - normal: Run Application
+2018-08-11T14:09:06.982Z - success: preview server running at http://localhost:7456
+2018-08-11T14:09:10.130Z - normal: 1.8.1
+2018-08-11T14:11:27.580Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 955.00
+2018-08-11T14:11:27.581Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-11T14:11:27.661Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-08-11T14:11:27.842Z - normal: Simulator: 
+2018-08-11T14:11:27.842Z - normal: Simulator: {
+2018-08-11T14:11:27.842Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-11T14:11:27.842Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-11T14:11:27.857Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-11T14:11:27.857Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2018-08-11T14:11:27.857Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-11T14:11:27.857Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2018-08-11T14:11:27.857Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-11T14:11:27.857Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-11T14:11:27.857Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-11T14:11:27.857Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-11T14:11:27.858Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-11T14:11:27.858Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-11T14:11:27.858Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-11T14:11:27.858Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-11T14:11:27.858Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-11T14:11:27.858Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.11.10 346.03.10f01
+2018-08-11T14:11:27.858Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-11T14:11:27.858Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-11T14:11:27.859Z - normal: Simulator: }
+2018-08-11T14:11:27.859Z - normal: Simulator: 
+2018-08-11T14:11:27.859Z - normal: Simulator: 
+2018-08-11T14:11:27.859Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-11T14:11:27.861Z - normal: Simulator: Project Config:
+2018-08-11T14:11:27.862Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-11T14:11:27.862Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-11T14:11:27.862Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-11T14:11:27.862Z - normal: Simulator:     frame size: 960 x 640
+2018-08-11T14:11:27.862Z - normal: Simulator:     frame scale: 1.00
+2018-08-11T14:11:27.862Z - normal: Simulator:     show console: NO
+2018-08-11T14:11:27.863Z - normal: Simulator:     write debug log: NO ()
+2018-08-11T14:11:27.863Z - normal: Simulator:     listen: 
+2018-08-11T14:11:27.863Z - normal: Simulator:     debugger: none
+2018-08-11T14:11:27.863Z - normal: Simulator:     add searching path:
+2018-08-11T14:11:27.868Z - normal: Simulator: ------------------------------------------------
+2018-08-11T14:11:27.868Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-11T14:11:27.868Z - normal: Simulator: ------------------------------------------------
+2018-08-11T14:11:27.869Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-11T14:11:28.063Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-11T14:11:28.356Z - normal: Simulator: iShow!
+2018-08-11T14:11:28.521Z - normal: Simulator: JS: InitScene: 0.8849999999999909ms
+2018-08-11T14:11:28.521Z - normal: Simulator: JS: AutoRelease: 0.07400000000006912ms
+2018-08-11T14:11:28.521Z - normal: Simulator: JS: Destroy: 0.04099999999993997ms
+2018-08-11T14:11:28.522Z - normal: Simulator: JS: AttachPersist: 0.0019999999999527063ms
+2018-08-11T14:11:28.523Z - normal: Simulator: JS: Activate: 1.7899999999999636ms
+2018-08-11T14:11:44.407Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-08-11T14:11:44.407Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 34
+2018-08-11T14:11:44.410Z - normal: Simulator: GC end ..., (Native -> JS map) count: 27
+2018-08-11T14:11:44.411Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 27
+2018-08-11T14:11:44.413Z - normal: Simulator: GC end ..., (Native -> JS map) count: 27
+2018-08-11T14:11:44.414Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 27
+2018-08-11T14:11:44.420Z - normal: Simulator: GC end ..., (Native -> JS map) count: 27
+2018-08-11T14:11:44.424Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-08-11T14:14:52.052Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:8728
