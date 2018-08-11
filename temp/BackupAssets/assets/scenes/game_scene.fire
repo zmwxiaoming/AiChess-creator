@@ -167,7 +167,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "f7564771-688b-447c-abe5-0da8295af40e"
+      "__uuid__": "eee25dfe-9729-4302-a6d1-4a6e44c03c07"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -191,7 +191,13 @@
     "node": {
       "__id__": 3
     },
-    "_enabled": true
+    "_enabled": true,
+    "piecesAtlas": {
+      "__uuid__": "4011edc4-897a-44a2-93a2-1d2249b37855"
+    },
+    "piecePrefab": {
+      "__uuid__": "61a565d7-c793-45ab-9a52-271b301bffd6"
+    }
   },
   {
     "__type__": "cc.Canvas",

@@ -4,40 +4,62 @@ cc._RF.push(module, '1c684KaTNJHgJr7+0e0Eb0M', 'GameBoard');
 
 "use strict";
 
-// Learn cc.Class:
-//  - [Chinese] http://www.cocos.com/docs/creator/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/class/index.html
-// Learn Attribute:
-//  - [Chinese] http://www.cocos.com/docs/creator/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/reference/attributes/index.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://www.cocos.com/docs/creator/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/life-cycle-callbacks/index.html
+var Constant = require('./Constant.js');
 
+//
 cc.Class({
     extends: cc.Component,
 
     properties: {
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
+
+        //图集资源，用于初始化棋子prefab
+        piecesAtlas: {
+            default: null,
+            type: cc.SpriteAtlas
+        },
+
+        //棋子prefab
+        piecePrefab: {
+            default: null,
+            type: cc.Prefab
+        }
     },
 
     // LIFE-CYCLE CALLBACKS:
+    onLoad: function onLoad() {
 
-    // onLoad () {},
+        this.node.on(cc.Node.EventType.TOUCH_START, function (e) {
+
+            var pos = this.node.convertToNodeSpaceAR(e.getLocation());
+
+            var row = Math.floor((pos.y + Constant.left_bottom_pos.len_y + Constant.cell_size * 0.5) / Constant.cell_size);
+            var col = Math.floor((pos.x + Constant.left_bottom_pos.len_x + Constant.cell_size * 0.5) / Constant.cell_size);
+
+            //
+            if (row < 0 || row > 9 || col < 0 || col > 8) {
+                return;
+            } else {
+                this.put_piece_at(row, col);
+            }
+        }.bind(this), this);
+    },
+
+
+    put_piece_at: function put_piece_at(row, col) {
+
+        var x = col * Constant.cell_size - Constant.left_bottom_pos.len_x;
+        var y = row * Constant.cell_size - Constant.left_bottom_pos.len_y;
+
+        var piece = this.createPieceByName("black_shi");
+        piece.setPosition(x, y);
+        this.node.addChild(piece);
+    },
+
+    createPieceByName: function createPieceByName(pieceName) {
+        var piece = cc.instantiate(this.piecePrefab);
+        piece.getComponent(cc.Sprite).spriteFrame = this.piecesAtlas.getSpriteFrame(pieceName);
+        return piece;
+    },
 
     start: function start() {}
 }

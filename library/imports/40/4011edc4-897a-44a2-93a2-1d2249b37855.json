@@ -1,0 +1,50 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "pieces.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "black_bing": {
+      "__uuid__": "15b8121d-0458-4151-a895-ead1b35626b1"
+    },
+    "black_che": {
+      "__uuid__": "2e005bdb-2ad2-4f84-9df8-20a34e9a661c"
+    },
+    "black_jiang": {
+      "__uuid__": "703369c0-5317-4344-a91c-18fc8882fa76"
+    },
+    "black_ma": {
+      "__uuid__": "ddaaabad-63e0-49b2-8677-fd77791cfb5e"
+    },
+    "black_pao": {
+      "__uuid__": "93df625e-bf2f-49c6-8488-e0b8b5df290f"
+    },
+    "black_shi": {
+      "__uuid__": "0e1384c3-cf3b-4af7-b475-352c4625cde0"
+    },
+    "black_xiang": {
+      "__uuid__": "e91cc7ed-07f9-41cf-bee5-65240fd611cb"
+    },
+    "red_bing": {
+      "__uuid__": "add6f118-a3b6-4ab9-a2b1-df1b9faee539"
+    },
+    "red_che": {
+      "__uuid__": "45c18458-6331-40bb-87a9-cf25df02bf98"
+    },
+    "red_jiang": {
+      "__uuid__": "d7cefcf7-cfc5-480b-b8db-b9885e5e022d"
+    },
+    "red_ma": {
+      "__uuid__": "dad86619-be55-48d1-af65-ecc9c6bd5776"
+    },
+    "red_pao": {
+      "__uuid__": "6230ab11-9a9e-4ec9-8473-df55359bbbdc"
+    },
+    "red_shi": {
+      "__uuid__": "6114697c-9cef-479c-9d1c-be654b4b5ac3"
+    },
+    "red_xiang": {
+      "__uuid__": "df120110-979e-4fd9-b7cb-a86f7611669f"
+    }
+  }
+}

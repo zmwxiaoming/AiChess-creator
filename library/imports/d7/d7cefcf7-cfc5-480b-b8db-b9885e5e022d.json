@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "red_jiang",
+    "texture": "94b576b9-dc29-475b-8d47-ca4309d5406e",
+    "atlas": "4011edc4-897a-44a2-93a2-1d2249b37855",
+    "rect": [
+      69,
+      69,
+      65,
+      65
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      65,
+      65
+    ]
+  }
+}
