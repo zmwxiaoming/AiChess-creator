@@ -1,0 +1,52 @@
+2018-08-11T14:03:08.712Z - normal: Load ~/.CocosCreator/settings.json
+2018-08-11T14:03:08.716Z - normal: checking language setting...
+2018-08-11T14:03:08.716Z - normal: Language: zh
+2018-08-11T14:03:09.168Z - success: protocol editor-framework registered
+2018-08-11T14:03:09.168Z - success: protocol app registered
+2018-08-11T14:03:09.168Z - success: protocol theme registered
+2018-08-11T14:03:09.168Z - success: protocol packages registered
+2018-08-11T14:03:09.169Z - success: protocol unpack registerred
+2018-08-11T14:03:09.169Z - success: protocol disable-commonjs registerred
+2018-08-11T14:03:09.261Z - normal: connected!
+2018-08-11T14:03:09.263Z - normal: Check project /Users/jianan/Documents/Study/CCC-ChineseChinese
+2018-08-11T14:03:09.265Z - normal: Initializing Cocos2d
+2018-08-11T14:03:09.398Z - normal: Initializing Asset Database
+2018-08-11T14:03:09.418Z - success: protocol uuid registerred
+2018-08-11T14:03:09.418Z - success: protocol db registerred
+2018-08-11T14:03:09.418Z - success: protocol thumbnail registerred
+2018-08-11T14:03:09.418Z - normal: Loading editor/builtin packages
+2018-08-11T14:03:09.432Z - success: anysdk loaded
+2018-08-11T14:03:09.511Z - success: assets loaded
+2018-08-11T14:03:09.514Z - success: builder loaded
+2018-08-11T14:03:09.515Z - success: cocos-analytics loaded
+2018-08-11T14:03:09.518Z - success: console loaded
+2018-08-11T14:03:09.522Z - success: hierarchy loaded
+2018-08-11T14:03:09.525Z - success: inspector loaded
+2018-08-11T14:03:09.526Z - success: keystore loaded
+2018-08-11T14:03:09.529Z - success: node-library loaded
+2018-08-11T14:03:09.530Z - success: package-asset loaded
+2018-08-11T14:03:09.531Z - success: preferences loaded
+2018-08-11T14:03:09.534Z - success: project-exporter loaded
+2018-08-11T14:03:09.546Z - success: project-importer loaded
+2018-08-11T14:03:09.554Z - success: project-settings loaded
+2018-08-11T14:03:09.557Z - success: ui-kit loaded
+2018-08-11T14:03:09.561Z - success: ui-grid loaded
+2018-08-11T14:03:09.564Z - success: scene loaded
+2018-08-11T14:03:09.565Z - success: sprite-editor loaded
+2018-08-11T14:03:09.568Z - success: store loaded
+2018-08-11T14:03:09.572Z - success: timeline loaded
+2018-08-11T14:03:09.572Z - normal: Loading builtin packages
+2018-08-11T14:03:09.575Z - success: asset-db-debugger loaded
+2018-08-11T14:03:09.576Z - success: color-picker loaded
+2018-08-11T14:03:09.579Z - success: package-manager loaded
+2018-08-11T14:03:09.583Z - success: sdkbox loaded
+2018-08-11T14:03:09.586Z - success: tester loaded
+2018-08-11T14:03:09.593Z - success: ui-kit-preview-extra loaded
+2018-08-11T14:03:09.596Z - success: ui-kit-preview loaded
+2018-08-11T14:03:09.598Z - success: ui-tree loaded
+2018-08-11T14:03:10.305Z - normal: Initializing project /Users/jianan/Documents/Study/CCC-ChineseChinese
+2018-08-11T14:03:10.307Z - normal: Loading packages
+2018-08-11T14:03:10.311Z - normal: Watching packages
+2018-08-11T14:03:10.319Z - normal: Run Application
+2018-08-11T14:03:10.996Z - success: preview server running at http://localhost:7456
+2018-08-11T14:03:14.004Z - normal: 1.8.1
