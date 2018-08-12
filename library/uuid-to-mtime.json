@@ -40,7 +40,7 @@
     "relativePath": "prefab"
   },
   "d3608bff-d5c8-40ce-98fb-8b3bec897a8d": {
-    "asset": 1534005669000,
+    "asset": 1534006661000,
     "meta": 1533996190000,
     "relativePath": "resources"
   },
@@ -50,7 +50,7 @@
     "relativePath": "scenes"
   },
   "5e2c8d3b-b989-4dca-8957-ecea4cadcb9f": {
-    "asset": 1533998505000,
+    "asset": 1534006202000,
     "meta": 1533996190000,
     "relativePath": "scripts"
   },
@@ -58,11 +58,6 @@
     "asset": 1534006670000,
     "meta": 1534006670000,
     "relativePath": "scenes/game_scene.fire"
-  },
-  "729e602f-5832-4bfe-8f7a-a1fbcee38449": {
-    "asset": 1534001079000,
-    "meta": 1534001084000,
-    "relativePath": "scripts/Constant.js"
   },
   "4011edc4-897a-44a2-93a2-1d2249b37855": {
     "asset": 1534005624000,
@@ -269,9 +264,19 @@
     "meta": 1534006687000,
     "relativePath": "resources/piece.prefab"
   },
+  "b094ed7d-58f9-4425-b1e1-66ad12725999": {
+    "asset": 1534066024000,
+    "meta": 1534066098000,
+    "relativePath": "scripts/Stone.js"
+  },
   "1c68429a-4cd2-4780-9afb-fb47b411bd0c": {
-    "asset": 1534006931000,
-    "meta": 1534006932000,
+    "asset": 1534067131000,
+    "meta": 1534067303000,
     "relativePath": "scripts/GameBoard.js"
+  },
+  "729e602f-5832-4bfe-8f7a-a1fbcee38449": {
+    "asset": 1534067567000,
+    "meta": 1534067572000,
+    "relativePath": "scripts/Constant.js"
   }
 }
