@@ -58,6 +58,7 @@ var stone_res_config = {
 
 //棋盘初始状态信息
 var game_board_init_info = {
+    //黑色棋子
     [0] : {
         stone_type: stone_type.che,
         turn_type: turn_type.black,
@@ -152,6 +153,104 @@ var game_board_init_info = {
         stone_type: stone_type.bing,
         turn_type: turn_type.black,
         row: 6,
+        col: 8
+    },
+
+    //红色棋子
+    [16] : {
+        stone_type: stone_type.bing,
+        turn_type: turn_type.red,
+        row: 3,
+        col: 0
+    },
+    [17] : {
+        stone_type: stone_type.bing,
+        turn_type: turn_type.red,
+        row: 3,
+        col: 2
+    },
+    [18] : {
+        stone_type: stone_type.bing,
+        turn_type: turn_type.red,
+        row: 3,
+        col: 4
+    },
+    [19] : {
+        stone_type: stone_type.bing,
+        turn_type: turn_type.red,
+        row: 3,
+        col: 6
+    },
+    [20] : {
+        stone_type: stone_type.bing,
+        turn_type: turn_type.red,
+        row: 3,
+        col: 8
+    },
+    [21] : {
+        stone_type: stone_type.pao,
+        turn_type: turn_type.red,
+        row: 2,
+        col: 1
+    },
+    [22] : {
+        stone_type: stone_type.pao,
+        turn_type: turn_type.red,
+        row: 2,
+        col: 7
+    },
+    [23] : {
+        stone_type: stone_type.che,
+        turn_type: turn_type.red,
+        row: 0,
+        col: 0
+    },
+    [24] : {
+        stone_type: stone_type.ma,
+        turn_type: turn_type.red,
+        row: 0,
+        col: 1
+    },
+    [25] : {
+        stone_type: stone_type.xiang,
+        turn_type: turn_type.red,
+        row: 0,
+        col: 2
+    },
+    [26] : {
+        stone_type: stone_type.shi,
+        turn_type: turn_type.red,
+        row: 0,
+        col: 3
+    },
+    [27] : {
+        stone_type: stone_type.jiang,
+        turn_type: turn_type.red,
+        row: 0,
+        col: 4
+    },
+    [28] : {
+        stone_type: stone_type.shi,
+        turn_type: turn_type.red,
+        row: 0,
+        col: 5
+    },
+    [29] : {
+        stone_type: stone_type.xiang,
+        turn_type: turn_type.red,
+        row: 0,
+        col: 6
+    },
+    [30] : {
+        stone_type: stone_type.ma,
+        turn_type: turn_type.red,
+        row: 0,
+        col: 7
+    },
+    [31] : {
+        stone_type: stone_type.che,
+        turn_type: turn_type.red,
+        row: 0,
         col: 8
     },
 }

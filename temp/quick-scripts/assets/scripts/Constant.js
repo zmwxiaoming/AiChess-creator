@@ -124,6 +124,86 @@ var game_board_init_info = (_game_board_init_info = {}, _defineProperty(_game_bo
     turn_type: turn_type.black,
     row: 6,
     col: 8
+}), _defineProperty(_game_board_init_info, 16, {
+    stone_type: stone_type.bing,
+    turn_type: turn_type.red,
+    row: 3,
+    col: 0
+}), _defineProperty(_game_board_init_info, 17, {
+    stone_type: stone_type.bing,
+    turn_type: turn_type.red,
+    row: 3,
+    col: 2
+}), _defineProperty(_game_board_init_info, 18, {
+    stone_type: stone_type.bing,
+    turn_type: turn_type.red,
+    row: 3,
+    col: 4
+}), _defineProperty(_game_board_init_info, 19, {
+    stone_type: stone_type.bing,
+    turn_type: turn_type.red,
+    row: 3,
+    col: 6
+}), _defineProperty(_game_board_init_info, 20, {
+    stone_type: stone_type.bing,
+    turn_type: turn_type.red,
+    row: 3,
+    col: 8
+}), _defineProperty(_game_board_init_info, 21, {
+    stone_type: stone_type.pao,
+    turn_type: turn_type.red,
+    row: 2,
+    col: 1
+}), _defineProperty(_game_board_init_info, 22, {
+    stone_type: stone_type.pao,
+    turn_type: turn_type.red,
+    row: 2,
+    col: 7
+}), _defineProperty(_game_board_init_info, 23, {
+    stone_type: stone_type.che,
+    turn_type: turn_type.red,
+    row: 0,
+    col: 0
+}), _defineProperty(_game_board_init_info, 24, {
+    stone_type: stone_type.ma,
+    turn_type: turn_type.red,
+    row: 0,
+    col: 1
+}), _defineProperty(_game_board_init_info, 25, {
+    stone_type: stone_type.xiang,
+    turn_type: turn_type.red,
+    row: 0,
+    col: 2
+}), _defineProperty(_game_board_init_info, 26, {
+    stone_type: stone_type.shi,
+    turn_type: turn_type.red,
+    row: 0,
+    col: 3
+}), _defineProperty(_game_board_init_info, 27, {
+    stone_type: stone_type.jiang,
+    turn_type: turn_type.red,
+    row: 0,
+    col: 4
+}), _defineProperty(_game_board_init_info, 28, {
+    stone_type: stone_type.shi,
+    turn_type: turn_type.red,
+    row: 0,
+    col: 5
+}), _defineProperty(_game_board_init_info, 29, {
+    stone_type: stone_type.xiang,
+    turn_type: turn_type.red,
+    row: 0,
+    col: 6
+}), _defineProperty(_game_board_init_info, 30, {
+    stone_type: stone_type.ma,
+    turn_type: turn_type.red,
+    row: 0,
+    col: 7
+}), _defineProperty(_game_board_init_info, 31, {
+    stone_type: stone_type.che,
+    turn_type: turn_type.red,
+    row: 0,
+    col: 8
 }), _game_board_init_info);
 
 //导出常量表
