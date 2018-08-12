@@ -269,14 +269,14 @@
     "meta": 1534066098000,
     "relativePath": "scripts/Stone.js"
   },
-  "1c68429a-4cd2-4780-9afb-fb47b411bd0c": {
-    "asset": 1534067131000,
-    "meta": 1534067303000,
-    "relativePath": "scripts/GameBoard.js"
-  },
   "729e602f-5832-4bfe-8f7a-a1fbcee38449": {
     "asset": 1534073448000,
     "meta": 1534073449000,
     "relativePath": "scripts/Constant.js"
+  },
+  "1c68429a-4cd2-4780-9afb-fb47b411bd0c": {
+    "asset": 1534076806000,
+    "meta": 1534076806000,
+    "relativePath": "scripts/GameBoard.js"
   }
 }
