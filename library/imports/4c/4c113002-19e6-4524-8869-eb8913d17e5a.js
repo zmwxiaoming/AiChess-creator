@@ -54,7 +54,17 @@ var get_stone_num_between_row_col = function get_stone_num_between_row_col(game_
 };
 
 //车
-var canMoveChe = function canMoveChe(game_board_info, row, col) {};
+var canMoveChe = function canMoveChe(game_board_info, row, col) {
+    var m_cur_click_stone = game_board_info.m_cur_click_stone;
+
+    var num = get_stone_num_between_row_col(game_board_info, m_cur_click_stone.m_row, m_cur_click_stone.m_col, row, col);
+
+    if (m_cur_click_stone.m_row === row || m_cur_click_stone.m_col === col) {} else {
+        console.log("-----车只能移动直线");
+    }
+
+    return num === 0;
+};
 
 //马
 var canMoveMa = function canMoveMa(game_board_info, row, col) {};
@@ -103,8 +113,7 @@ var canMovePao = function canMovePao(game_board_info, row, col) {
             }
         }
 
-    console.log("-----其它不满足移动炮的情况");
-
+    //这按道理执行不到
     return false;
 };
 
