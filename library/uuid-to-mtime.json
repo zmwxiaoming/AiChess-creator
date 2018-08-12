@@ -269,14 +269,19 @@
     "meta": 1534066098000,
     "relativePath": "scripts/Stone.js"
   },
+  "1c68429a-4cd2-4780-9afb-fb47b411bd0c": {
+    "asset": 1534085751000,
+    "meta": 1534085792000,
+    "relativePath": "scripts/GameBoard.js"
+  },
   "729e602f-5832-4bfe-8f7a-a1fbcee38449": {
-    "asset": 1534073448000,
-    "meta": 1534073449000,
+    "asset": 1534085853000,
+    "meta": 1534085982000,
     "relativePath": "scripts/Constant.js"
   },
-  "1c68429a-4cd2-4780-9afb-fb47b411bd0c": {
-    "asset": 1534083111000,
-    "meta": 1534083112000,
-    "relativePath": "scripts/GameBoard.js"
+  "4c113002-19e6-4524-8869-eb8913d17e5a": {
+    "asset": 1534086471000,
+    "meta": 1534086473000,
+    "relativePath": "scripts/MoveRule.js"
   }
 }

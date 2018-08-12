@@ -4,6 +4,7 @@
 
 var Constant = require('./Constant.js');
 var Stone = require('./Stone.js');
+var MoveRule = require("./MoveRule.js");
 
 //
 cc.Class({
@@ -77,15 +78,18 @@ cc.Class({
                         }else{
 
                             //试图去吃黑色棋子 this.m_cur_click_stone
-                            this.kill_stone(row, col);
+                            if(MoveRule.canMove(this, row, col)){
+                                this.kill_stone(row, col);
+                            }
                         }
                     } 
                 }
                 //选中棋子后，又选择了一个空位置
                 else{
 
-                    this.move_stone(row, col);
-                    
+                    if(MoveRule.canMove(this, row, col)){
+                        this.move_stone(row, col);
+                    }
                 }
             }
 

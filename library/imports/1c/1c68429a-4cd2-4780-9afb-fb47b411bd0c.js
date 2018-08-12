@@ -10,6 +10,7 @@ cc._RF.push(module, '1c684KaTNJHgJr7+0e0Eb0M', 'GameBoard');
 
 var Constant = require('./Constant.js');
 var Stone = require('./Stone.js');
+var MoveRule = require("./MoveRule.js");
 
 //
 cc.Class({
@@ -48,6 +49,7 @@ cc.Class({
         //初始化点击事件
         this.node.on(cc.Node.EventType.TOUCH_START, function (e) {
 
+            //不论到我走棋，直接返回
             if (!this.isMyTurn) {
                 return;
             }
@@ -80,15 +82,18 @@ cc.Class({
                             } else {
 
                                 //试图去吃黑色棋子 this.m_cur_click_stone
-
-                                this.kill_stone(row, col);
+                                if (MoveRule.canMove(this, row, col)) {
+                                    this.kill_stone(row, col);
+                                }
                             }
                         }
                 }
                 //选中棋子后，又选择了一个空位置
                 else {
 
-                        this.move_stone(row, col);
+                        if (MoveRule.canMove(this, row, col)) {
+                            this.move_stone(row, col);
+                        }
                     }
             }
         }.bind(this), this);

@@ -22,19 +22,19 @@ var left_bottom_pos = {
 
     //棋子类型
 };var stone_type = {
-    che: 1, //车
-    ma: 2, //马
-    xiang: 3, //象
-    shi: 4, //士
-    pao: 5, //炮
-    bing: 6, //兵
-    jiang: 7 //将
+    che: 0, //车
+    ma: 1, //马
+    xiang: 2, //象
+    shi: 3, //士
+    pao: 4, //炮
+    bing: 5, //兵
+    jiang: 6 //将
 
 
     //方
 };var turn_type = {
-    red: 1, //红方
-    black: 2 //黑方
+    red: 0, //红方
+    black: 1 //黑方
 
 
     /**
