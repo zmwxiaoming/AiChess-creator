@@ -79,41 +79,41 @@ cc.Class({
                     }
                     //点了黑棋，1.如果当前没有选中棋子，则报错 2.选中了棋子，则试图吃掉当前的黑棋
                     else{
-                        // console.log("turn_type:" + click_stone.m_turn_type + " stone_type:" + click_stone.m_stone_type);
+          
                         if(!this.m_cur_click_stone){
+
                             console.log("-----只能走红棋");
+                            
                         }else{
 
-                            //被吃掉的黑棋
+                            //1.黑棋被吃掉
                             var eatBlackStone = this.piecesArrArr[row][col];
                             eatBlackStone.m_is_dead = true;
                             eatBlackStone.m_piecePrefab.removeFromParent();
 
-                            //-----之前选中的红棋-----
+                            //2.存的的红棋的位置置空
                             this.piecesArrArr[this.m_cur_click_stone.m_row][this.m_cur_click_stone.m_col] = null;
 
-                            //1.修改红旗属性
+                            //3.走棋后修改红旗属性
                             this.m_cur_click_stone.m_row = row;
                             this.m_cur_click_stone.m_col = col;
 
-                            //2.修改红旗新的UI位置
+                            //4.修改红旗新的UI位置
                             var x =  col * Constant.cell_size - Constant.left_bottom_pos.len_x
                             var y =  row * Constant.cell_size - Constant.left_bottom_pos.len_y;
                             this.m_cur_click_stone.m_piecePrefab.setPosition(x, y);
 
-                            //3.刷新存储
+                            //5.刷新存储
                             this.piecesArrArr[row][col] = this.m_cur_click_stone;
 
-                            //走完棋后设置当前未选中棋子
+                            //6.走完棋后设置当前未选中棋子
                             var prefab = this.m_cur_click_stone.m_piecePrefab;
                             prefab.stopAllActions();
                             prefab.scale = 1;
                             this.m_cur_click_stone = null;
 
-
                         }
-                    }
-                    
+                    } 
                 } 
             }
 
