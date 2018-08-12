@@ -53,10 +53,9 @@ cc.Class({
             }
 
             //
-            var pos = this.node.convertToNodeSpaceAR(e.getLocation());
-
-            var row = Math.floor((pos.y + Constant.left_bottom_pos.len_y + Constant.cell_size * 0.5) / Constant.cell_size);
-            var col = Math.floor((pos.x + Constant.left_bottom_pos.len_x + Constant.cell_size * 0.5) / Constant.cell_size);
+            var click_info = this.get_select_row_col_by_click(e);
+            var row = click_info.row;
+            var col = click_info.col;
 
             //
             if (row < 0 || row > 9 || col < 0 || col > 8) {
@@ -70,57 +69,112 @@ cc.Class({
                     //点了红旗，切换当前选中的棋子
                     if (click_stone.m_turn_type === Constant.turn_type.red) {
 
-                        if (this.m_cur_click_stone) {
-                            var pre_prefab = this.m_cur_click_stone.m_piecePrefab;
-                            pre_prefab.stopAllActions();
-                            pre_prefab.scale = 1;
-                        }
-
-                        this.m_cur_click_stone = click_stone;
-                        var prefab = this.m_cur_click_stone.m_piecePrefab;
-                        prefab.stopAllActions();
-                        prefab.scale = 1;
-                        prefab.runAction(cc.repeatForever(cc.sequence(cc.scaleTo(0.5, 0.8), cc.scaleTo(0.5, 1.0))));
+                        this.select_one_stone(click_stone);
                     }
                     //点了黑棋，1.如果当前没有选中棋子，则报错 2.选中了棋子，则试图吃掉当前的黑棋
                     else {
-                            // console.log("turn_type:" + click_stone.m_turn_type + " stone_type:" + click_stone.m_stone_type);
+
                             if (!this.m_cur_click_stone) {
+
                                 console.log("-----只能走红棋");
                             } else {
 
-                                //被吃掉的黑棋
-                                var eatBlackStone = this.piecesArrArr[row][col];
-                                eatBlackStone.m_is_dead = true;
-                                eatBlackStone.m_piecePrefab.removeFromParent();
+                                //试图去吃黑色棋子 this.m_cur_click_stone
 
-                                //-----之前选中的红棋-----
-                                this.piecesArrArr[this.m_cur_click_stone.m_row][this.m_cur_click_stone.m_col] = null;
-
-                                //1.修改红旗属性
-                                this.m_cur_click_stone.m_row = row;
-                                this.m_cur_click_stone.m_col = col;
-
-                                //2.修改红旗新的UI位置
-                                var x = col * Constant.cell_size - Constant.left_bottom_pos.len_x;
-                                var y = row * Constant.cell_size - Constant.left_bottom_pos.len_y;
-                                this.m_cur_click_stone.m_piecePrefab.setPosition(x, y);
-
-                                //3.刷新存储
-                                this.piecesArrArr[row][col] = this.m_cur_click_stone;
-
-                                //走完棋后设置当前未选中棋子
-                                var prefab = this.m_cur_click_stone.m_piecePrefab;
-                                prefab.stopAllActions();
-                                prefab.scale = 1;
-                                this.m_cur_click_stone = null;
+                                this.kill_stone(row, col);
                             }
                         }
                 }
+                //选中棋子后，又选择了一个空位置
+                else {
+
+                        this.move_stone(row, col);
+                    }
             }
         }.bind(this), this);
     },
 
+
+    //根据点击点获取点击的行列
+    get_select_row_col_by_click: function get_select_row_col_by_click(e) {
+        var pos = this.node.convertToNodeSpaceAR(e.getLocation());
+
+        var row = Math.floor((pos.y + Constant.left_bottom_pos.len_y + Constant.cell_size * 0.5) / Constant.cell_size);
+        var col = Math.floor((pos.x + Constant.left_bottom_pos.len_x + Constant.cell_size * 0.5) / Constant.cell_size);
+
+        return {
+            row: row,
+            col: col
+        };
+    },
+
+    //选中一颗棋子
+    select_one_stone: function select_one_stone(click_stone) {
+
+        if (this.m_cur_click_stone) {
+            var pre_prefab = this.m_cur_click_stone.m_piecePrefab;
+            pre_prefab.stopAllActions();
+            pre_prefab.scale = 1;
+        }
+
+        //刷新新的棋子
+        this.m_cur_click_stone = click_stone;
+        var prefab = this.m_cur_click_stone.m_piecePrefab;
+        prefab.stopAllActions();
+        prefab.scale = 1;
+        prefab.runAction(cc.repeatForever(cc.sequence(cc.scaleTo(0.5, 0.8), cc.scaleTo(0.5, 1.0))));
+    },
+
+    //杀死棋子
+    kill_stone: function kill_stone(row, col) {
+        //1.黑棋被吃掉
+        var eatBlackStone = this.piecesArrArr[row][col];
+        eatBlackStone.m_is_dead = true;
+        eatBlackStone.m_piecePrefab.removeFromParent();
+
+        //2.存的的红棋的位置置空
+        this.piecesArrArr[this.m_cur_click_stone.m_row][this.m_cur_click_stone.m_col] = null;
+
+        //3.走棋后修改红旗属性
+        this.m_cur_click_stone.m_row = row;
+        this.m_cur_click_stone.m_col = col;
+
+        //4.修改红旗新的UI位置
+        var x = col * Constant.cell_size - Constant.left_bottom_pos.len_x;
+        var y = row * Constant.cell_size - Constant.left_bottom_pos.len_y;
+        this.m_cur_click_stone.m_piecePrefab.setPosition(x, y);
+
+        //5.刷新存储
+        this.piecesArrArr[row][col] = this.m_cur_click_stone;
+
+        //6.走完棋后设置当前未选中棋子
+        var prefab = this.m_cur_click_stone.m_piecePrefab;
+        prefab.stopAllActions();
+        prefab.scale = 1;
+        this.m_cur_click_stone = null;
+    },
+
+    //移动棋子
+    move_stone: function move_stone(row, col) {
+        //1.清理原来位置
+        this.piecesArrArr[this.m_cur_click_stone.m_row][this.m_cur_click_stone.m_col] = null;
+
+        //2.设置新的数据
+        this.m_cur_click_stone.m_row = row;
+        this.m_cur_click_stone.m_col = col;
+        this.piecesArrArr[row][col] = this.m_cur_click_stone;
+
+        //3.更新位置
+        var x = col * Constant.cell_size - Constant.left_bottom_pos.len_x;
+        var y = row * Constant.cell_size - Constant.left_bottom_pos.len_y;
+        this.m_cur_click_stone.m_piecePrefab.setPosition(x, y);
+
+        //4.走完棋子停止动作
+        var prefab = this.m_cur_click_stone.m_piecePrefab;
+        prefab.stopAllActions();
+        prefab.scale = 1;
+        this.m_cur_click_stone = null;
+    },
 
     //初始化32颗棋子
     init32Stones: function init32Stones() {

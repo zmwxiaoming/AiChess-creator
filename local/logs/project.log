@@ -1045,3 +1045,510 @@
 2018-08-12T12:25:57.689Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 113
 2018-08-12T12:25:57.689Z - normal: Simulator: GC end ..., (Native -> JS map) count: 113
 2018-08-12T12:25:57.707Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-08-12T13:55:44.319Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 955.00
+2018-08-12T13:55:44.320Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-12T13:55:44.384Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-08-12T13:55:44.491Z - normal: Simulator: 
+2018-08-12T13:55:44.491Z - normal: Simulator: {
+2018-08-12T13:55:44.491Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-12T13:55:44.491Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-12T13:55:44.491Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-12T13:55:44.491Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2018-08-12T13:55:44.506Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-12T13:55:44.506Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2018-08-12T13:55:44.506Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-12T13:55:44.507Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-12T13:55:44.507Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-12T13:55:44.507Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-12T13:55:44.507Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-12T13:55:44.507Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-12T13:55:44.507Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-12T13:55:44.507Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-12T13:55:44.507Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-12T13:55:44.507Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.11.10 346.03.10f01
+2018-08-12T13:55:44.508Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-12T13:55:44.508Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-12T13:55:44.508Z - normal: Simulator: }
+2018-08-12T13:55:44.508Z - normal: Simulator: 
+2018-08-12T13:55:44.508Z - normal: Simulator: 
+2018-08-12T13:55:44.509Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-12T13:55:44.516Z - normal: Simulator: Project Config:
+2018-08-12T13:55:44.516Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-12T13:55:44.516Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-12T13:55:44.517Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-12T13:55:44.517Z - normal: Simulator:     frame size: 960 x 640
+2018-08-12T13:55:44.517Z - normal: Simulator:     frame scale: 1.00
+2018-08-12T13:55:44.517Z - normal: Simulator:     show console: NO
+2018-08-12T13:55:44.517Z - normal: Simulator:     write debug log: NO ()
+2018-08-12T13:55:44.517Z - normal: Simulator:     listen: 
+2018-08-12T13:55:44.517Z - normal: Simulator:     debugger: none
+2018-08-12T13:55:44.518Z - normal: Simulator:     add searching path:
+2018-08-12T13:55:44.531Z - normal: Simulator: ------------------------------------------------
+2018-08-12T13:55:44.532Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-12T13:55:44.532Z - normal: Simulator: ------------------------------------------------
+2018-08-12T13:55:44.532Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-12T13:55:44.742Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-12T13:55:44.970Z - normal: Simulator: iShow!
+2018-08-12T13:55:45.215Z - normal: Simulator: JS: InitScene: 0.8730000000000473ms
+2018-08-12T13:55:45.215Z - normal: Simulator: JS: AutoRelease: 0.08399999999994634ms
+2018-08-12T13:55:45.215Z - normal: Simulator: JS: Destroy: 0.047000000000025466ms
+2018-08-12T13:55:45.215Z - normal: Simulator: JS: AttachPersist: 0.002000000000066393ms
+2018-08-12T13:55:45.231Z - normal: Simulator: JS: Activate: 13.66199999999992ms
+2018-08-12T13:55:54.368Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-08-12T13:55:54.369Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 129
+2018-08-12T13:55:54.372Z - normal: Simulator: GC end ..., (Native -> JS map) count: 120
+2018-08-12T13:55:54.373Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 120
+2018-08-12T13:55:54.384Z - normal: Simulator: GC end ..., (Native -> JS map) count: 120
+2018-08-12T13:55:54.384Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 120
+2018-08-12T13:55:54.385Z - normal: Simulator: GC end ..., (Native -> JS map) count: 120
+2018-08-12T13:55:54.390Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-08-12T14:02:09.929Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 955.00
+2018-08-12T14:02:09.930Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-12T14:02:09.937Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-08-12T14:02:10.018Z - normal: Simulator: 
+2018-08-12T14:02:10.019Z - normal: Simulator: {
+2018-08-12T14:02:10.019Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-12T14:02:10.019Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-12T14:02:10.020Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-12T14:02:10.020Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2018-08-12T14:02:10.020Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-12T14:02:10.020Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2018-08-12T14:02:10.020Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-12T14:02:10.020Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-12T14:02:10.020Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-12T14:02:10.021Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-12T14:02:10.021Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-12T14:02:10.021Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-12T14:02:10.021Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-12T14:02:10.021Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-12T14:02:10.021Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-12T14:02:10.022Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.11.10 346.03.10f01
+2018-08-12T14:02:10.022Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-12T14:02:10.022Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-12T14:02:10.022Z - normal: Simulator: }
+2018-08-12T14:02:10.022Z - normal: Simulator: 
+2018-08-12T14:02:10.022Z - normal: Simulator: 
+2018-08-12T14:02:10.023Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-12T14:02:10.035Z - normal: Simulator: Project Config:
+2018-08-12T14:02:10.035Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-12T14:02:10.035Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-12T14:02:10.035Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-12T14:02:10.036Z - normal: Simulator:     frame size: 960 x 640
+2018-08-12T14:02:10.036Z - normal: Simulator:     frame scale: 1.00
+2018-08-12T14:02:10.036Z - normal: Simulator:     show console: NO
+2018-08-12T14:02:10.036Z - normal: Simulator:     write debug log: NO ()
+2018-08-12T14:02:10.036Z - normal: Simulator:     listen: 
+2018-08-12T14:02:10.036Z - normal: Simulator:     debugger: none
+2018-08-12T14:02:10.036Z - normal: Simulator:     add searching path:
+2018-08-12T14:02:10.036Z - normal: Simulator: 
+2018-08-12T14:02:10.037Z - normal: Simulator: 
+2018-08-12T14:02:10.037Z - normal: Simulator: 
+2018-08-12T14:02:10.037Z - normal: Simulator: ------------------------------------------------
+2018-08-12T14:02:10.037Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-12T14:02:10.037Z - normal: Simulator: ------------------------------------------------
+2018-08-12T14:02:10.037Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-12T14:02:10.071Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-12T14:02:10.218Z - normal: Simulator: iShow!
+2018-08-12T14:02:10.331Z - normal: Simulator: JS: InitScene: 0.4700000000000273ms
+2018-08-12T14:02:10.332Z - normal: Simulator: JS: AutoRelease: 0.09700000000003683ms
+2018-08-12T14:02:10.332Z - normal: Simulator: JS: Destroy: 0.03699999999997772ms
+2018-08-12T14:02:10.332Z - normal: Simulator: JS: AttachPersist: 0.002999999999985903ms
+2018-08-12T14:02:10.346Z - normal: Simulator: JS: Activate: 14.204999999999984ms
+2018-08-12T14:02:20.009Z - normal: Simulator: ERROR: TypeError: null is not an object (evaluating 'this.m_cur_click_stone.m_row'), location: assets/scripts/GameBoard.js:129:65
+2018-08-12T14:02:20.010Z - normal: Simulator: STACK:
+2018-08-12T14:02:20.010Z - normal: Simulator: assets/scripts/GameBoard.js:129:65
+2018-08-12T14:02:20.010Z - normal: Simulator: [native code]
+2018-08-12T14:02:20.010Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-08-12T14:02:20.010Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-08-12T14:02:20.010Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-08-12T14:02:20.010Z - normal: Simulator: _touchStartHandler@src/jsb_polyfill.js:5502:29
+2018-08-12T14:02:20.010Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-08-12T14:02:20.011Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-08-12T14:02:26.720Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-08-12T14:02:26.721Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 137
+2018-08-12T14:02:26.724Z - normal: Simulator: GC end ..., (Native -> JS map) count: 124
+2018-08-12T14:02:26.724Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 124
+2018-08-12T14:02:26.734Z - normal: Simulator: GC end ..., (Native -> JS map) count: 124
+2018-08-12T14:02:26.735Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 124
+2018-08-12T14:02:26.735Z - normal: Simulator: GC end ..., (Native -> JS map) count: 124
+2018-08-12T14:02:26.740Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-08-12T14:02:56.416Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 955.00
+2018-08-12T14:02:56.416Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-12T14:02:56.419Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-08-12T14:02:56.485Z - normal: Simulator: 
+2018-08-12T14:02:56.485Z - normal: Simulator: {
+2018-08-12T14:02:56.485Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-12T14:02:56.494Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-12T14:02:56.494Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-12T14:02:56.495Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2018-08-12T14:02:56.495Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-12T14:02:56.495Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2018-08-12T14:02:56.495Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-12T14:02:56.495Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-12T14:02:56.495Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-12T14:02:56.495Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-12T14:02:56.495Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-12T14:02:56.495Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-12T14:02:56.496Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-12T14:02:56.496Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-12T14:02:56.496Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-12T14:02:56.496Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.11.10 346.03.10f01
+2018-08-12T14:02:56.496Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-12T14:02:56.496Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-12T14:02:56.496Z - normal: Simulator: }
+2018-08-12T14:02:56.496Z - normal: Simulator: 
+2018-08-12T14:02:56.497Z - normal: Simulator: 
+2018-08-12T14:02:56.497Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-12T14:02:56.505Z - normal: Simulator: Project Config:
+2018-08-12T14:02:56.506Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-12T14:02:56.506Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-12T14:02:56.506Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-12T14:02:56.506Z - normal: Simulator:     frame size: 960 x 640
+2018-08-12T14:02:56.507Z - normal: Simulator:     frame scale: 1.00
+2018-08-12T14:02:56.507Z - normal: Simulator:     show console: NO
+2018-08-12T14:02:56.507Z - normal: Simulator:     write debug log: NO ()
+2018-08-12T14:02:56.507Z - normal: Simulator:     listen: 
+2018-08-12T14:02:56.507Z - normal: Simulator:     debugger: none
+2018-08-12T14:02:56.507Z - normal: Simulator:     add searching path:
+2018-08-12T14:02:56.508Z - normal: Simulator: 
+2018-08-12T14:02:56.508Z - normal: Simulator: 
+2018-08-12T14:02:56.509Z - normal: Simulator: 
+2018-08-12T14:02:56.509Z - normal: Simulator: ------------------------------------------------
+2018-08-12T14:02:56.509Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-12T14:02:56.509Z - normal: Simulator: ------------------------------------------------
+2018-08-12T14:02:56.509Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-12T14:02:56.544Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-12T14:02:56.696Z - normal: Simulator: iShow!
+2018-08-12T14:02:56.802Z - normal: Simulator: JS: InitScene: 0.5760000000000218ms
+2018-08-12T14:02:56.802Z - normal: Simulator: JS: AutoRelease: 0.08999999999997499ms
+2018-08-12T14:02:56.803Z - normal: Simulator: JS: Destroy: 0.04899999999997817ms
+2018-08-12T14:02:56.803Z - normal: Simulator: JS: AttachPersist: 0.0020000000000095497ms
+2018-08-12T14:02:56.818Z - normal: Simulator: JS: Activate: 15.998999999999967ms
+2018-08-12T14:02:59.539Z - normal: Simulator: JS: -----只能走红棋
+2018-08-12T14:03:01.522Z - normal: Simulator: JS: -----只能走红棋
+2018-08-12T14:03:01.911Z - normal: Simulator: ERROR: TypeError: null is not an object (evaluating 'this.m_cur_click_stone.m_row'), location: assets/scripts/GameBoard.js:129:65
+2018-08-12T14:03:01.912Z - normal: Simulator: STACK:
+2018-08-12T14:03:01.912Z - normal: Simulator: assets/scripts/GameBoard.js:129:65
+2018-08-12T14:03:01.912Z - normal: Simulator: [native code]
+2018-08-12T14:03:01.912Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-08-12T14:03:01.912Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-08-12T14:03:01.912Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-08-12T14:03:01.913Z - normal: Simulator: _touchStartHandler@src/jsb_polyfill.js:5502:29
+2018-08-12T14:03:01.914Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-08-12T14:03:01.914Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-08-12T14:03:04.089Z - normal: Simulator: JS: -----只能走红棋
+2018-08-12T14:03:14.921Z - normal: Simulator: JS: -----只能走红棋
+2018-08-12T14:03:15.194Z - normal: Simulator: ERROR: TypeError: null is not an object (evaluating 'this.m_cur_click_stone.m_row'), location: assets/scripts/GameBoard.js:129:65
+2018-08-12T14:03:15.195Z - normal: Simulator: STACK:
+2018-08-12T14:03:15.195Z - normal: Simulator: assets/scripts/GameBoard.js:129:65
+2018-08-12T14:03:15.195Z - normal: Simulator: [native code]
+2018-08-12T14:03:15.195Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-08-12T14:03:15.195Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-08-12T14:03:15.195Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-08-12T14:03:15.196Z - normal: Simulator: _touchStartHandler@src/jsb_polyfill.js:5502:29
+2018-08-12T14:03:15.196Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-08-12T14:03:15.196Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-08-12T14:03:16.679Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-08-12T14:03:16.679Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 168
+2018-08-12T14:03:16.694Z - normal: Simulator: GC end ..., (Native -> JS map) count: 140
+2018-08-12T14:03:16.694Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 140
+2018-08-12T14:03:16.694Z - normal: Simulator: GC end ..., (Native -> JS map) count: 140
+2018-08-12T14:03:16.694Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 140
+2018-08-12T14:03:16.695Z - normal: Simulator: GC end ..., (Native -> JS map) count: 140
+2018-08-12T14:03:16.710Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-08-12T14:07:05.762Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 955.00
+2018-08-12T14:07:05.763Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-12T14:07:05.764Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-08-12T14:07:05.831Z - normal: Simulator: 
+2018-08-12T14:07:05.831Z - normal: Simulator: {
+2018-08-12T14:07:05.831Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-12T14:07:05.831Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-12T14:07:05.832Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-12T14:07:05.832Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2018-08-12T14:07:05.839Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-12T14:07:05.840Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2018-08-12T14:07:05.840Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-12T14:07:05.840Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-12T14:07:05.840Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-12T14:07:05.840Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-12T14:07:05.840Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-12T14:07:05.840Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-12T14:07:05.840Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-12T14:07:05.841Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-12T14:07:05.841Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-12T14:07:05.841Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.11.10 346.03.10f01
+2018-08-12T14:07:05.841Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-12T14:07:05.841Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-12T14:07:05.841Z - normal: Simulator: }
+2018-08-12T14:07:05.841Z - normal: Simulator: 
+2018-08-12T14:07:05.841Z - normal: Simulator: 
+2018-08-12T14:07:05.842Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-12T14:07:05.848Z - normal: Simulator: Project Config:
+2018-08-12T14:07:05.848Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-12T14:07:05.848Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-12T14:07:05.849Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-12T14:07:05.849Z - normal: Simulator:     frame size: 960 x 640
+2018-08-12T14:07:05.849Z - normal: Simulator:     frame scale: 1.00
+2018-08-12T14:07:05.849Z - normal: Simulator:     show console: NO
+2018-08-12T14:07:05.849Z - normal: Simulator:     write debug log: NO ()
+2018-08-12T14:07:05.850Z - normal: Simulator:     listen: 
+2018-08-12T14:07:05.850Z - normal: Simulator:     debugger: none
+2018-08-12T14:07:05.850Z - normal: Simulator:     add searching path:
+2018-08-12T14:07:05.850Z - normal: Simulator: 
+2018-08-12T14:07:05.850Z - normal: Simulator: 
+2018-08-12T14:07:05.850Z - normal: Simulator: 
+2018-08-12T14:07:05.850Z - normal: Simulator: ------------------------------------------------
+2018-08-12T14:07:05.851Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-12T14:07:05.851Z - normal: Simulator: ------------------------------------------------
+2018-08-12T14:07:05.851Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-12T14:07:05.884Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-12T14:07:06.029Z - normal: Simulator: iShow!
+2018-08-12T14:07:06.139Z - normal: Simulator: JS: InitScene: 0.4840000000000373ms
+2018-08-12T14:07:06.139Z - normal: Simulator: JS: AutoRelease: 0.08400000000000318ms
+2018-08-12T14:07:06.140Z - normal: Simulator: JS: Destroy: 0.03700000000003456ms
+2018-08-12T14:07:06.140Z - normal: Simulator: JS: AttachPersist: 0.0019999999999527063ms
+2018-08-12T14:07:06.154Z - normal: Simulator: JS: Activate: 14.699999999999989ms
+2018-08-12T14:07:07.138Z - normal: Simulator: ERROR: ReferenceError: Can't find variable: click_stone, location: assets/scripts/GameBoard.js:109:45
+2018-08-12T14:07:07.138Z - normal: Simulator: STACK:
+2018-08-12T14:07:07.139Z - normal: Simulator: select_one_stone@assets/scripts/GameBoard.js:109:45
+2018-08-12T14:07:07.139Z - normal: Simulator: assets/scripts/GameBoard.js:73:46
+2018-08-12T14:07:07.139Z - normal: Simulator: [native code]
+2018-08-12T14:07:07.139Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-08-12T14:07:07.139Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-08-12T14:07:07.139Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-08-12T14:07:07.139Z - normal: Simulator: _touchStartHandler@src/jsb_polyfill.js:5502:29
+2018-08-12T14:07:07.140Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-08-12T14:07:07.140Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-08-12T14:07:39.925Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 955.00
+2018-08-12T14:07:39.926Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-12T14:07:39.928Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-08-12T14:07:40.008Z - normal: Simulator: 
+2018-08-12T14:07:40.008Z - normal: Simulator: {
+2018-08-12T14:07:40.019Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-12T14:07:40.019Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-12T14:07:40.019Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-12T14:07:40.020Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2018-08-12T14:07:40.020Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-12T14:07:40.020Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2018-08-12T14:07:40.020Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-12T14:07:40.020Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-12T14:07:40.020Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-12T14:07:40.021Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-12T14:07:40.021Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-12T14:07:40.021Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-12T14:07:40.021Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-12T14:07:40.021Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-12T14:07:40.021Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-12T14:07:40.021Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.11.10 346.03.10f01
+2018-08-12T14:07:40.021Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-12T14:07:40.022Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-12T14:07:40.022Z - normal: Simulator: }
+2018-08-12T14:07:40.022Z - normal: Simulator: 
+2018-08-12T14:07:40.022Z - normal: Simulator: 
+2018-08-12T14:07:40.022Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-12T14:07:40.033Z - normal: Simulator: Project Config:
+2018-08-12T14:07:40.033Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-12T14:07:40.034Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-12T14:07:40.034Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-12T14:07:40.034Z - normal: Simulator:     frame size: 960 x 640
+2018-08-12T14:07:40.034Z - normal: Simulator:     frame scale: 1.00
+2018-08-12T14:07:40.035Z - normal: Simulator:     show console: NO
+2018-08-12T14:07:40.035Z - normal: Simulator:     write debug log: NO ()
+2018-08-12T14:07:40.035Z - normal: Simulator:     listen: 
+2018-08-12T14:07:40.035Z - normal: Simulator:     debugger: none
+2018-08-12T14:07:40.036Z - normal: Simulator:     add searching path:
+2018-08-12T14:07:40.036Z - normal: Simulator: 
+2018-08-12T14:07:40.036Z - normal: Simulator: 
+2018-08-12T14:07:40.036Z - normal: Simulator: 
+2018-08-12T14:07:40.036Z - normal: Simulator: ------------------------------------------------
+2018-08-12T14:07:40.036Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-12T14:07:40.037Z - normal: Simulator: ------------------------------------------------
+2018-08-12T14:07:40.037Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-12T14:07:40.070Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-12T14:07:40.217Z - normal: Simulator: iShow!
+2018-08-12T14:07:40.341Z - normal: Simulator: JS: InitScene: 0.6280000000000427ms
+2018-08-12T14:07:40.342Z - normal: Simulator: JS: AutoRelease: 0.08999999999997499ms
+2018-08-12T14:07:40.342Z - normal: Simulator: JS: Destroy: 0.04699999999996862ms
+2018-08-12T14:07:40.342Z - normal: Simulator: JS: AttachPersist: 0.002999999999985903ms
+2018-08-12T14:07:40.361Z - normal: Simulator: JS: Activate: 17.69799999999998ms
+2018-08-12T14:07:42.965Z - normal: Simulator: JS: -----只能走红棋
+2018-08-12T14:07:50.214Z - normal: Simulator: JS: -----只能走红棋
+2018-08-12T14:07:54.880Z - normal: Simulator: JS: -----只能走红棋
+2018-08-12T14:07:58.931Z - normal: Simulator: JS: -----只能走红棋
+2018-08-12T14:07:59.286Z - normal: Simulator: ERROR: TypeError: null is not an object (evaluating 'this.m_cur_click_stone.m_row'), location: assets/scripts/GameBoard.js:148:49
+2018-08-12T14:07:59.287Z - normal: Simulator: STACK:
+2018-08-12T14:07:59.287Z - normal: Simulator: move_stone@assets/scripts/GameBoard.js:148:49
+2018-08-12T14:07:59.287Z - normal: Simulator: assets/scripts/GameBoard.js:92:40
+2018-08-12T14:07:59.287Z - normal: Simulator: [native code]
+2018-08-12T14:07:59.287Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-08-12T14:07:59.287Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-08-12T14:07:59.288Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-08-12T14:07:59.288Z - normal: Simulator: _touchStartHandler@src/jsb_polyfill.js:5502:29
+2018-08-12T14:07:59.288Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-08-12T14:07:59.288Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-08-12T14:07:59.986Z - normal: Simulator: ERROR: TypeError: null is not an object (evaluating 'this.m_cur_click_stone.m_row'), location: assets/scripts/GameBoard.js:148:49
+2018-08-12T14:07:59.988Z - normal: Simulator: STACK:
+2018-08-12T14:07:59.988Z - normal: Simulator: move_stone@assets/scripts/GameBoard.js:148:49
+2018-08-12T14:07:59.988Z - normal: Simulator: assets/scripts/GameBoard.js:92:40
+2018-08-12T14:07:59.989Z - normal: Simulator: [native code]
+2018-08-12T14:07:59.989Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-08-12T14:07:59.989Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-08-12T14:07:59.989Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-08-12T14:07:59.989Z - normal: Simulator: _touchStartHandler@src/jsb_polyfill.js:5502:29
+2018-08-12T14:07:59.989Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-08-12T14:07:59.989Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-08-12T14:08:00.214Z - normal: Simulator: JS: -----只能走红棋
+2018-08-12T14:08:02.099Z - normal: Simulator: JS: -----只能走红棋
+2018-08-12T14:08:10.363Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-08-12T14:08:10.363Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 211
+2018-08-12T14:08:10.378Z - normal: Simulator: GC end ..., (Native -> JS map) count: 188
+2018-08-12T14:08:10.380Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 188
+2018-08-12T14:08:10.380Z - normal: Simulator: GC end ..., (Native -> JS map) count: 188
+2018-08-12T14:08:10.380Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 188
+2018-08-12T14:08:10.381Z - normal: Simulator: GC end ..., (Native -> JS map) count: 188
+2018-08-12T14:08:10.427Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-08-12T14:11:20.720Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 955.00
+2018-08-12T14:11:20.721Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-12T14:11:20.721Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-08-12T14:11:20.788Z - normal: Simulator: 
+2018-08-12T14:11:20.795Z - normal: Simulator: {
+2018-08-12T14:11:20.795Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-12T14:11:20.796Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-12T14:11:20.796Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-12T14:11:20.796Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2018-08-12T14:11:20.796Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-12T14:11:20.796Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2018-08-12T14:11:20.796Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-12T14:11:20.796Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-12T14:11:20.797Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-12T14:11:20.797Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-12T14:11:20.797Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-12T14:11:20.797Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-12T14:11:20.797Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-12T14:11:20.797Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-12T14:11:20.798Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-12T14:11:20.798Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.11.10 346.03.10f01
+2018-08-12T14:11:20.798Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-12T14:11:20.798Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-12T14:11:20.798Z - normal: Simulator: }
+2018-08-12T14:11:20.798Z - normal: Simulator: 
+2018-08-12T14:11:20.799Z - normal: Simulator: 
+2018-08-12T14:11:20.799Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-12T14:11:20.809Z - normal: Simulator: Project Config:
+2018-08-12T14:11:20.809Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-12T14:11:20.810Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-12T14:11:20.810Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-12T14:11:20.810Z - normal: Simulator:     frame size: 960 x 640
+2018-08-12T14:11:20.810Z - normal: Simulator:     frame scale: 1.00
+2018-08-12T14:11:20.811Z - normal: Simulator:     show console: NO
+2018-08-12T14:11:20.811Z - normal: Simulator:     write debug log: NO ()
+2018-08-12T14:11:20.811Z - normal: Simulator:     listen: 
+2018-08-12T14:11:20.811Z - normal: Simulator:     debugger: none
+2018-08-12T14:11:20.811Z - normal: Simulator:     add searching path:
+2018-08-12T14:11:20.811Z - normal: Simulator: 
+2018-08-12T14:11:20.812Z - normal: Simulator: 
+2018-08-12T14:11:20.812Z - normal: Simulator: 
+2018-08-12T14:11:20.812Z - normal: Simulator: ------------------------------------------------
+2018-08-12T14:11:20.812Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-12T14:11:20.812Z - normal: Simulator: ------------------------------------------------
+2018-08-12T14:11:20.812Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-12T14:11:20.851Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-12T14:11:20.994Z - normal: Simulator: iShow!
+2018-08-12T14:11:21.117Z - normal: Simulator: JS: InitScene: 0.5339999999999918ms
+2018-08-12T14:11:21.117Z - normal: Simulator: JS: AutoRelease: 0.11599999999998545ms
+2018-08-12T14:11:21.117Z - normal: Simulator: JS: Destroy: 0.06199999999995498ms
+2018-08-12T14:11:21.117Z - normal: Simulator: JS: AttachPersist: 0.004000000000019099ms
+2018-08-12T14:11:21.138Z - normal: Simulator: JS: Activate: 15.456999999999994ms
+2018-08-12T14:11:22.099Z - normal: Simulator: ERROR: ReferenceError: Can't find variable: self, location: assets/scripts/GameBoard.js:56:34
+2018-08-12T14:11:22.099Z - normal: Simulator: STACK:
+2018-08-12T14:11:22.099Z - normal: Simulator: assets/scripts/GameBoard.js:56:34
+2018-08-12T14:11:22.099Z - normal: Simulator: [native code]
+2018-08-12T14:11:22.100Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-08-12T14:11:22.100Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-08-12T14:11:22.100Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-08-12T14:11:22.100Z - normal: Simulator: _touchStartHandler@src/jsb_polyfill.js:5502:29
+2018-08-12T14:11:22.100Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-08-12T14:11:22.100Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-08-12T14:11:22.665Z - normal: Simulator: ERROR: ReferenceError: Can't find variable: self, location: assets/scripts/GameBoard.js:56:34
+2018-08-12T14:11:22.665Z - normal: Simulator: STACK:
+2018-08-12T14:11:22.665Z - normal: Simulator: assets/scripts/GameBoard.js:56:34
+2018-08-12T14:11:22.665Z - normal: Simulator: [native code]
+2018-08-12T14:11:22.666Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-08-12T14:11:22.666Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-08-12T14:11:22.666Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-08-12T14:11:22.666Z - normal: Simulator: _touchStartHandler@src/jsb_polyfill.js:5502:29
+2018-08-12T14:11:22.667Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-08-12T14:11:22.667Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-08-12T14:11:53.315Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 955.00
+2018-08-12T14:11:53.315Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-12T14:11:53.316Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-08-12T14:11:53.389Z - normal: Simulator: 
+2018-08-12T14:11:53.390Z - normal: Simulator: {
+2018-08-12T14:11:53.404Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-12T14:11:53.404Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-12T14:11:53.404Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-12T14:11:53.404Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2018-08-12T14:11:53.404Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-12T14:11:53.405Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 960 OpenGL Engine
+2018-08-12T14:11:53.405Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-12T14:11:53.405Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-12T14:11:53.405Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-12T14:11:53.405Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-12T14:11:53.405Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-12T14:11:53.406Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-12T14:11:53.406Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-12T14:11:53.409Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-12T14:11:53.409Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-12T14:11:53.409Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.11.10 346.03.10f01
+2018-08-12T14:11:53.410Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-12T14:11:53.410Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-12T14:11:53.410Z - normal: Simulator: }
+2018-08-12T14:11:53.411Z - normal: Simulator: 
+2018-08-12T14:11:53.411Z - normal: Simulator: 
+2018-08-12T14:11:53.411Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-12T14:11:53.422Z - normal: Simulator: Project Config:
+2018-08-12T14:11:53.422Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-12T14:11:53.422Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-12T14:11:53.423Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-12T14:11:53.423Z - normal: Simulator:     frame size: 960 x 640
+2018-08-12T14:11:53.423Z - normal: Simulator:     frame scale: 1.00
+2018-08-12T14:11:53.423Z - normal: Simulator:     show console: NO
+2018-08-12T14:11:53.423Z - normal: Simulator:     write debug log: NO ()
+2018-08-12T14:11:53.424Z - normal: Simulator:     listen: 
+2018-08-12T14:11:53.424Z - normal: Simulator:     debugger: none
+2018-08-12T14:11:53.424Z - normal: Simulator:     add searching path:
+2018-08-12T14:11:53.424Z - normal: Simulator: 
+2018-08-12T14:11:53.424Z - normal: Simulator: 
+2018-08-12T14:11:53.425Z - normal: Simulator: 
+2018-08-12T14:11:53.425Z - normal: Simulator: ------------------------------------------------
+2018-08-12T14:11:53.425Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-12T14:11:53.425Z - normal: Simulator: ------------------------------------------------
+2018-08-12T14:11:53.425Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-12T14:11:53.458Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-12T14:11:53.600Z - normal: Simulator: iShow!
+2018-08-12T14:11:53.718Z - normal: Simulator: JS: InitScene: 0.7099999999999795ms
+2018-08-12T14:11:53.718Z - normal: Simulator: JS: AutoRelease: 0.09100000000000819ms
+2018-08-12T14:11:53.718Z - normal: Simulator: JS: Destroy: 0.045000000000015916ms
+2018-08-12T14:11:53.719Z - normal: Simulator: JS: AttachPersist: 0.002999999999985903ms
+2018-08-12T14:11:53.746Z - normal: Simulator: JS: Activate: 16.182999999999993ms
+2018-08-12T14:11:55.475Z - normal: Simulator: JS: -----只能走红棋
+2018-08-12T14:11:59.098Z - normal: Simulator: ERROR: TypeError: null is not an object (evaluating 'this.m_cur_click_stone.m_row'), location: assets/scripts/GameBoard.js:160:49
+2018-08-12T14:11:59.098Z - normal: Simulator: STACK:
+2018-08-12T14:11:59.098Z - normal: Simulator: move_stone@assets/scripts/GameBoard.js:160:49
+2018-08-12T14:11:59.098Z - normal: Simulator: assets/scripts/GameBoard.js:91:40
+2018-08-12T14:11:59.098Z - normal: Simulator: [native code]
+2018-08-12T14:11:59.098Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-08-12T14:11:59.099Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-08-12T14:11:59.099Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-08-12T14:11:59.100Z - normal: Simulator: _touchStartHandler@src/jsb_polyfill.js:5502:29
+2018-08-12T14:11:59.100Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-08-12T14:11:59.100Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-08-12T14:12:09.458Z - normal: Simulator: JS: -----只能走红棋
+2018-08-12T14:12:11.631Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-08-12T14:12:11.632Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 187
+2018-08-12T14:12:11.635Z - normal: Simulator: GC end ..., (Native -> JS map) count: 186
+2018-08-12T14:12:11.635Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 186
+2018-08-12T14:12:11.639Z - normal: Simulator: GC end ..., (Native -> JS map) count: 186
+2018-08-12T14:12:11.639Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 186
+2018-08-12T14:12:11.653Z - normal: Simulator: GC end ..., (Native -> JS map) count: 186
+2018-08-12T14:12:11.654Z - normal: Simulator: ScriptEngine::cleanup end ...
